@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: orange;
+    height: 10vh;
+}
+ul{
+    display: flex;
+    justify-content: right;
+
+}
+li{
+    display: inline;
+    padding-left: 44px;
+    padding-top: 35px;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+#nub{
+    display: inline;
+    position: absolute;
+}
+#none{
+    padding-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: rgb(255, 0, 255);
+}
+header{
+    border: 2px solid black;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.p1{
+    position: relative;
+    font-size: 40px;
+    width: 300px;
+    font-family: 'PT Sans', sans-serif;
+    right: 221px;
+    top: 122px;
+  }
+
+.p2{
+    position: relative;
+    font-size: 20px;
+    width: 300px;
+    font-family: 'PT Sans', sans-serif;
+    top: 245px;
+    right: 521px;
+   
+}
+#noob{
+    position: relative;
+    padding-right: 401px;
+    top: -29px;
+}
+.image{
+    display: flex;
+    justify-content: right;
+
+}
+body{
+    background-color: aqua;
+}
